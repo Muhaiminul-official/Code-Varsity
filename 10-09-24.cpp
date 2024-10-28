@@ -1,18 +1,18 @@
-// #include<iostream>
-// #include<string>
-// using namespace std;
+#include<iostream>
+#include<string>
+using namespace std;
 
-// int fun(){
-//   int static num = 7;
-//   return --num;
-// }
-// int main()
-// {
-//   for (fun(); fun(); fun()){
-//     cout << fun() << endl;
-//   }
-//     return 0;
-// }
+int fun(){
+  int static num = 7;
+  return --num;
+}
+int main()
+{
+  for (fun(); fun(); fun()){
+    cout << fun() << endl;
+  }
+    return 0;
+}
 
 //===========================================
 // OutPut : 5  2 (post decrement)
